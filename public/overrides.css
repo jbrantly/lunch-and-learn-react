@@ -1,0 +1,11 @@
+.builtin-prism-theme {
+  background-color: transparent !important;
+}
+
+.codepane-centered {
+  text-align: center !important;
+}
+
+.extraWide:first-child {
+  max-width: 90% !important;
+}
