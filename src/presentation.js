@@ -78,7 +78,7 @@ export default class Presentation extends React.Component {
         theme={theme}
         contentWidth={1200}
       >
-        <Slide bgImage="/images/bg1.jpg" align="flex-start center">
+        <Slide bgImage="images/bg1.jpg" align="flex-start center">
           <Heading
             size={1}
             caps
@@ -183,10 +183,10 @@ export default class Presentation extends React.Component {
         <Slide bgColor="white">
           <Heading>λ</Heading>
           <Text fit>Functional Programming</Text>
-          <Image src="/images/functional.png" />
+          <Image src="images/functional.png" />
         </Slide>
         <Slide bgColor="white">
-          <Image width="300" src="/images/purity.jpg" />
+          <Image width="300" src="images/purity.jpg" />
           <Text>Deterministic</Text>
           <Text>Side Effect Free</Text>
           <CodePane
@@ -214,7 +214,7 @@ export default class Presentation extends React.Component {
             lang="jsx"
             source={codeSamples.composable}
           />
-          <Image width="700" src="/images/tree.svg" />
+          <Image width="700" src="images/tree.svg" />
         </Slide>
         <Slide bgColor="secondary">
           <Heading fit caps>
@@ -237,7 +237,7 @@ export default class Presentation extends React.Component {
             lang="jsx"
             source={codeSamples.reactComposable}
           />
-          <Image width="700" src="/images/treeDark.svg" />
+          <Image width="700" src="images/treeDark.svg" />
         </Slide>
         <Slide bgColor="secondary">
           <Heading fit caps>
@@ -260,7 +260,7 @@ export default class Presentation extends React.Component {
               <Text textColor="white">UI Out</Text>
             </Fill>
           </Layout>
-          <Image width="700" src="/images/tree.svg" />
+          <Image width="700" src="images/tree.svg" />
         </Slide>
         <Slide bgColor="tertiary">
           <Heading fit textColor="white">
@@ -273,18 +273,18 @@ export default class Presentation extends React.Component {
               <Text textSize="75%" textColor="white">
                 (creates initial state)
               </Text>
-              <Image src="/images/tree.svg" />
+              <Image src="images/tree.svg" />
             </Fill>
             <Fill>
               <Text textColor="white">Client - SPA</Text>
               <Text textSize="75%" textColor="white">
                 (consumes initial state)
               </Text>
-              <Image src="/images/tree.svg" />
+              <Image src="images/tree.svg" />
             </Fill>
           </Layout>
         </Slide>
-        <Slide bgImage="/images/derivesystems.com.png" />
+        <Slide bgImage="images/derivesystems.com.png" />
         <Slide>
           <Heading>Imperative</Heading>
           <Text>does not have to mean</Text>
@@ -311,27 +311,27 @@ export default class Presentation extends React.Component {
           <Text>React ➜ Java</Text>
         </Slide>
 
-        <Slide bgImage="/images/billy-mays.png" textColor="tertiary">
+        <Slide bgImage="images/billy-mays.png" textColor="tertiary">
           <Heading fit textColor="white" caps>
             But wait, there's more!
           </Heading>
         </Slide>
-        <Slide bgImage="/images/blessed.gif">
+        <Slide bgImage="images/blessed.gif">
           <Heading>Console Apps</Heading>
           <Text textColor="white">react-blessed</Text>
         </Slide>
         <Slide>
           <Heading>Windows Apps</Heading>
-          <Image src="/images/react-native-windows.png" />
+          <Image src="images/react-native-windows.png" />
         </Slide>
         <Slide>
-          <Image height="600" src="/images/office-365.png" />
+          <Image height="600" src="images/office-365.png" />
         </Slide>
         <Slide>
-          <Image src="/images/netflix.jpg" />
+          <Image src="images/netflix.jpg" />
         </Slide>
         <Slide>
-          <BottomRightImage height="400" src="/images/all-the-things.jpg" />
+          <BottomRightImage height="400" src="images/all-the-things.jpg" />
           <List>
             <ListItem>react-dom (Web)</ListItem>
             <ListItem>react-native (iOS and Android)</ListItem>
@@ -347,7 +347,7 @@ export default class Presentation extends React.Component {
         <Slide
           transitionIn={["fade"]}
           transitionOut={["none"]}
-          bgImage="/images/bg1.jpg"
+          bgImage="images/bg1.jpg"
           align="flex-start center"
         >
           <Heading
@@ -371,7 +371,7 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide
           transitionIn={["fade"]}
-          bgImage="/images/bg1.jpg"
+          bgImage="images/bg1.jpg"
           align="flex-start center"
         >
           <Heading
