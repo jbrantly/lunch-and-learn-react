@@ -318,7 +318,6 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide bgImage="images/blessed.gif">
           <Heading>Console Apps</Heading>
-          <Text textColor="white">react-blessed</Text>
         </Slide>
         <Slide>
           <Heading>Windows Apps</Heading>
